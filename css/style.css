@@ -172,6 +172,19 @@
   cursor: pointer;
 }
 
+.product-slider .product-wrapper .sale-badge {
+  background-color: #af1e21;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding: 2px 16px;
+  color: #fff;
+  width: fit-content;
+  position: absolute;
+  top: 0;
+}
+
+
+
 
 /* width */
 .product-slider ::-webkit-scrollbar {
@@ -220,6 +233,7 @@
   object-fit: contain;
   object-position: center;
   margin-bottom: 25px;
+  margin-top: 40px;
 }
 
 .product-slider .product-wrapper .prod-description {
@@ -265,6 +279,7 @@
 }
 
 .section-wrapper {
+  margin-top: 50px;
   margin-bottom: 80px;
 }
 
@@ -280,6 +295,7 @@
   position: relative;
   margin-bottom: 25px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .section-title::after {
@@ -305,7 +321,328 @@
   padding: 10px 16px;
   border-radius: 20px;
   text-decoration: none;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   text-align: center;
   display: inline-block;
+  font-weight: 700;
+}
+
+.call-banner {
+  background-image: url("../assets/call-bg.jpg");
+  padding: 80px 0;
+  background-size: cover;
+}
+
+.call-banner .wrapper {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: -22%;
+  top: 50%;
+}
+
+
+.call-banner .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.call-banner .wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.call-banner .wrapper ul li {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  line-height: 1.6;
+  font-weight: 700;
+  position: relative;
+}
+
+.call-banner .wrapper ul li:before {
+  position: absolute;
+  content: '';
+  width: 23px;
+  height: 23px;
+  left: -35px;
+  bottom: 14px;
+  border: 3px solid #af1e21;
+  border-radius: 50%;
+}
+
+.our-brands {
+  background-color: #edeef2;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.our-brands h1 {
+  font-family: "Montserrat";
+  color: #000;
+}
+
+.our-brands p {
+  font-family: "Montserrat";
+  color: #14272e;
+  margin: 30px 0;
+  font-size: 18px;
+}
+
+.our-brands .cta {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  border: 1px solid #af1e21;
+  color: #14272e;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.our-brands .brand-wrapper {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 13px 0px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  margin-bottom: 16px;
+  min-height: 87px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cust-field-sec {
+  display: inline-block;
+  text-align: center;
+}
+
+.cust-field-sec h2 {
+  font-size: 55px;
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  top: 25px;
+  background-color: #fff;
+  display: inline-block;
+  margin: 0px auto !important;
+  padding: 0px 20px;
+}
+
+.et_pb_text ol,
+.et_pb_text ul {
+  padding-bottom: 1em;
+}
+
+#left-area ul,
+.entry-content ul,
+.et-l--body ul,
+.et-l--footer ul,
+.et-l--header ul {
+  list-style-type: disc;
+  padding: 0 0 23px 1em;
+  line-height: 26px;
+}
+
+.gympros-list {
+  margin-bottom: 30px;
+  columns: 2;
+  border: 4px solid #000;
+  padding: 60px 15px 15px;
+}
+
+.gympros-list li {
+  display: block;
+  padding-left: 30px;
+  background-image: url("https://www.gympros.com/wp-content/uploads/2020/06/red-bullet-img.png");
+  background-repeat: no-repeat;
+  background-position: left 5px;
+  color: #000;
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.cust-field-sec img {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.supply-section {
+  margin: 50px 0 0 0;
+}
+
+.supply-section .section-title {
+  margin-bottom: 0;
+}
+
+.supply-brands {
+  background-color: #edeef2;
+  padding: 30px 0;
+}
+
+.blogs-wrapper {
+  margin: 80px 0;
+}
+
+.blogs-wrapper .section-title {
+  border: 0;
+  margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  color: #14272e;
+  padding-bottom: 0;
+}
+
+.blogs-wrapper .view-all {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.blogs-wrapper .section-title::after {
+  content: none;
+}
+
+.commercial-fitness ul {
+  border-bottom: 2px solid #000;
+}
+
+.commercial-fitness li button {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(20, 39, 46);
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 14px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.commercial-fitness li button.nav-link.active {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(20, 39, 46);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 14px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.commercial-fitness li button.nav-link.active {
+  background-color: transparent;
+  color: rgb(20, 39, 46);
+}
+
+.commercial-fitness li button.nav-link.active::after {
+  content: '';
+  position: absolute;
+  width: 49px;
+  height: 9px;
+  background-color: #af1e21;
+  border-radius: 20px;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.commercial-fitness-content {
+  background-color: #edeef2;
+}
+
+.commercial-fitness-content .tab-pane {
+  padding: 40px;
+  font-size: 17px;
+  font-family: "Montserrat";
+  color: rgb(20, 39, 46);
+  line-height: 1.412;
+  text-align: left;
+}
+
+.commercial-fitness-content .tab-pane a {
+  color: #af1e21;
+}
+
+.logo-strip {
+  padding: 40px 0;
+}
+
+.footer {
+  background: #232323;
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+.footer h2 {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  height: 22px;
+  letter-spacing: 0.75px;
+  line-height: 22px;
+  margin-block-end: 12px;
+  margin-block-start: 0px;
+  margin-bottom: 12px;
+  font-family: "Montserrat";
+  color: #fff;
+}
+
+.footer ul {
+  list-style: none;
+  padding: none;
+  margin: none;
+}
+
+.footer ul li a {
+  box-sizing: border-box;
+  color: rgb(207, 207, 207);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-block__subheading {
+  color: rgb(207, 207, 207);
+  display: block;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  height: 18px;
+  letter-spacing: 0.24px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.field__input {
+  color: #cfcfcf;
+  background-color: #232323;
+  border: 1px solid #d3d3d3;
+  font-size: 16px;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+.form__button {
+  color: #232323;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  height: 42px;
+  padding: 0 26px;
+  margin-left: 10px;
+  font-weight: 700;
 }
