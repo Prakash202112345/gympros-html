@@ -14,19 +14,20 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-highlight">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-6 col-xl-2 mx-auto text-center">
-                        <div class="highlight-text roboto-bold">
-                            Call 888-502-2348 – Shop Our 2024 New Year, New You Sale! – Save Up To 70%!
-                        </div>
+    <div class="header-highlight">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-2 mx-auto text-center">
+                    <div class="highlight-text roboto-bold">
+                        Call 888-502-2348 – Shop Our 2024 New Year, New You Sale! – Save Up To 70%!
                     </div>
                 </div>
             </div>
         </div>
-        <!-- highlight section end here -->
+    </div>
+    <!-- highlight section end here -->
+    <header>
+
 
         <div class="menu1">
             <div class="container-fluid">

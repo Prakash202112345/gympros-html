@@ -167,12 +167,14 @@
 }
 
 
-.product-slider .product-wrapper {
+.product-slider .product-wrapper,
+.single-product .product-wrapper {
   position: relative;
   cursor: pointer;
 }
 
-.product-slider .product-wrapper .sale-badge {
+.product-slider .product-wrapper .sale-badge,
+.single-product .sale-badge {
   background-color: #af1e21;
   font-family: "Montserrat";
   font-weight: 700;
@@ -208,7 +210,8 @@
   background: #000;
 }
 
-.product-slider .product-wrapper .quick-add a {
+.product-slider .product-wrapper .quick-add a,
+.single-product .product-wrapper .quick-add a {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 700;
@@ -227,7 +230,8 @@
 
 
 
-.product-slider .product-wrapper img {
+.product-slider .product-wrapper img,
+.single-product .product-wrapper img {
   height: 250px;
   width: 100%;
   object-fit: contain;
@@ -236,11 +240,13 @@
   margin-top: 40px;
 }
 
-.product-slider .product-wrapper .prod-description {
+.product-slider .product-wrapper .prod-description,
+.single-product .product-wrapper .prod-description {
   margin-bottom: 50px;
 }
 
-.product-slider .product-wrapper .prod-description .name {
+.product-slider .product-wrapper .prod-description .name,
+.single-product .product-wrapper .prod-description .name {
   font-size: 12px;
   font-family: "Montserrat";
   color: rgb(20, 39, 46);
@@ -252,7 +258,8 @@
 }
 
 .product-slider .product-wrapper .prod-description .was,
-.product-slider .product-wrapper .prod-description .sale-price {
+.single-product .product-wrapper .prod-description .was,
+.single-product .product-wrapper .prod-description .sale-price {
   font-size: 18px;
   font-family: "Montserrat";
   color: rgb(20, 39, 46);
@@ -262,7 +269,8 @@
   margin-bottom: 10px;
 }
 
-.product-slider .product-wrapper .prod-description .was span {
+.product-slider .product-wrapper .prod-description .was span,
+.single-product .product-wrapper .prod-description .was span {
   font-size: 14px;
   font-family: "Montserrat";
   color: rgb(175, 30, 33);
@@ -271,7 +279,8 @@
   text-align: left;
 }
 
-.product-slider .product-wrapper .prod-description .sale-price span {
+.product-slider .product-wrapper .prod-description .sale-price span,
+.single-product .product-wrapper .prod-description .sale-price span {
   font-size: 14px;
   font-family: "Montserrat";
   line-height: 1.2;
@@ -818,3 +827,5 @@ input[type="range"]::-moz-range-thumb {
   -moz-appearance: none;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
 }
+
+.single-product {}

@@ -101,7 +101,48 @@ include './components/header.php';
           </div>
         </div>
         <div class="col-md-10">
-
+          <div class="row">
+            <div class="col-md-3">
+              <?php
+              include './components/single-product.php';
+              ?>
+            </div>
+            <div class="col-md-3">
+              <?php
+              include './components/single-product.php';
+              ?>
+            </div>
+            <div class="col-md-3">
+              <?php
+              include './components/single-product.php';
+              ?>
+            </div>
+            <div class="col-md-3">
+              <?php
+              include './components/single-product.php';
+              ?>
+            </div>
+            <div class="col-md-3">
+              <?php
+              include './components/single-product.php';
+              ?>
+            </div>
+            <div class="col-md-3">
+              <?php
+              include './components/single-product.php';
+              ?>
+            </div>
+            <div class="col-md-3">
+              <?php
+              include './components/single-product.php';
+              ?>
+            </div>
+            <div class="col-md-3">
+              <?php
+              include './components/single-product.php';
+              ?>
+            </div>
+          </div>
         </div>
       </div>
     </div>
