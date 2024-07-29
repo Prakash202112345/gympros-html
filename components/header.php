@@ -63,7 +63,7 @@
 
                     <div class="col-md-5 ms-auto">
                         <div class="row align-items-center">
-                            <div class="col-md-6 ms-auto">
+                            <div class="col-md-5 ms-auto">
                                 <form action="" class="search">
                                     <div class="input-group">
                                         <input type="text" class="form-control" placeholder="Search">
@@ -73,7 +73,7 @@
                                     </div>
                                 </form>
                             </div>
-                            <div class="col-md-6 ms-auto">
+                            <div class="col-md-7 ms-auto">
                                 <div class="cart-wishlist">
                                     <a href="">
                                         <svg viewBox="0 0 30 30" class="icon icon-cart" enable-background="new 0 0 30 30">
