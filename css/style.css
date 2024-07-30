@@ -717,6 +717,15 @@
   content: none;
 }
 
+.blogs-wrapper img {
+  transition: all ease-in-out 350ms;
+}
+
+.blogs-wrapper img:hover {
+  transform: scale(1.05);
+}
+
+
 .commercial-fitness ul {
   border-bottom: 2px solid #000;
 }
