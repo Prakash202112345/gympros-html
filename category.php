@@ -58,7 +58,6 @@ include './components/header.php';
 
 
           </div>
-
           <div class="filter">
             <div class="title">AVAILABILITY</div>
 
@@ -75,7 +74,6 @@ include './components/header.php';
               </label>
             </div>
           </div>
-
           <div class="filter price-slide">
             <div class="title">price</div>
             <div class="wrapper-price-slide">
@@ -99,6 +97,7 @@ include './components/header.php';
 
             </div>
           </div>
+          <a href="#" class="applybtn">APPLY</a>
         </div>
         <div class="col-md-10">
           <div class="row">
@@ -151,10 +150,19 @@ include './components/header.php';
 
 
 
+<div class="py-5 my-4">
+  <?php
+  include './components/call-us.php';
+  ?>
+</div>
+
+<div class="py-5 my-4">
+  <?php
+  include './components/why-choose-us.php';
+  ?>
+</div>
 
 
 <?php
-include './components/call-us.php';
-include './components/why-choose-us.php';
 include './components/footer.php';
 ?>

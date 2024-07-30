@@ -1034,4 +1034,22 @@ input[type="range"]::-moz-range-thumb {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
 }
 
-.single-product {}
+.applybtn {
+  background-color: #232323;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Montserrat";
+  transition: all ease-in-out .3s;
+}
+
+.applybtn:hover {
+  background-color: #fff;
+  color: #232323;
+  border: 1px solid #232323;
+}
