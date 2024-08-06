@@ -1,7 +1,6 @@
 <?php
 include './components/header.php';
 ?>
-
 <section class="slider_wrapper">
   <div class="banner_slider">
     <div>

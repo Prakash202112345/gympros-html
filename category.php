@@ -6,8 +6,10 @@ include './components/header.php';
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <span>Home</span> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+        <span>Home</span> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+          class="bi bi-chevron-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
         </svg> <span>Treadmills</span>
       </div>
     </div>
@@ -25,7 +27,7 @@ include './components/header.php';
     </div>
     <div class="cetegory">
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-2 d-none d-lg-block">
           <div class="filter">
             <div class="title">BRANDS</div>
             <ul>
@@ -99,44 +101,44 @@ include './components/header.php';
           </div>
           <a href="#" class="applybtn">APPLY</a>
         </div>
-        <div class="col-md-10">
+        <div class="col-12 col-md-12  col-xl-10">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-6 col-md-6 col-xl-3">
               <?php
               include './components/single-product.php';
               ?>
             </div>
-            <div class="col-md-3">
+            <div class="col-6 col-md-6 col-xl-3">
               <?php
               include './components/single-product.php';
               ?>
             </div>
-            <div class="col-md-3">
+            <div class="col-6 col-md-6 col-xl-3">
               <?php
               include './components/single-product.php';
               ?>
             </div>
-            <div class="col-md-3">
+            <div class="col-6 col-md-6 col-xl-3">
               <?php
               include './components/single-product.php';
               ?>
             </div>
-            <div class="col-md-3">
+            <div class="col-6 col-md-6 col-xl-3">
               <?php
               include './components/single-product.php';
               ?>
             </div>
-            <div class="col-md-3">
+            <div class="col-6 col-md-6 col-xl-3">
               <?php
               include './components/single-product.php';
               ?>
             </div>
-            <div class="col-md-3">
+            <div class="col-6 col-md-6 col-xl-3">
               <?php
               include './components/single-product.php';
               ?>
             </div>
-            <div class="col-md-3">
+            <div class="col-6 col-md-6 col-xl-3">
               <?php
               include './components/single-product.php';
               ?>
@@ -150,13 +152,13 @@ include './components/header.php';
 
 
 
-<div class="py-5 my-4">
+<div class="py-0 py-lg-0 my-4">
   <?php
   include './components/call-us.php';
   ?>
 </div>
 
-<div class="py-5 my-4">
+<div class="py-0 py-lg-0 my-4">
   <?php
   include './components/why-choose-us.php';
   ?>
@@ -166,3 +168,4 @@ include './components/header.php';
 <?php
 include './components/footer.php';
 ?>
+
