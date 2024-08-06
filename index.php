@@ -77,39 +77,39 @@ include './components/call-us.php';
 <section class="our-brands">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-6 col-xl-4">
         <h1>OUR BRANDS</h1>
         <p>Gympros is more than gym equipment, we offer innovative solutions for all your facility needs.​ This is why we’ve brought together the most recognizable fitness brands to ensure our customers can offer their members an authentic fitness experience.</p>
         <a href="#" class="cta">more about our brands</a>
       </div>
       <div class="col-md-5 ms-auto">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-6 col-md-6">
             <div class="brand-wrapper">
               <img src="./assets/brand1.png" alt="brands" class="img-fluid">
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-6 col-md-6">
             <div class="brand-wrapper">
               <img src="./assets/brand2.png" alt="brands" class="img-fluid">
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-6 col-md-6">
             <div class="brand-wrapper">
               <img src="./assets/brand3.png" alt="brands" class="img-fluid">
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-6 col-md-6">
             <div class="brand-wrapper">
               <img src="./assets/brand4.png" alt="brands" class="img-fluid">
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-6 col-md-6">
             <div class="brand-wrapper">
               <img src="./assets/brand5.png" alt="brands" class="img-fluid">
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-6 col-md-6">
             <div class="brand-wrapper">
               <img src="./assets/brand6.png" alt="brands" class="img-fluid">
             </div>

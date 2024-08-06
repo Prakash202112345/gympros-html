@@ -183,6 +183,7 @@
   width: fit-content;
   position: absolute;
   top: 0;
+  font-size: 12px;
 }
 
 
@@ -1083,7 +1084,7 @@ input[type="range"]::-moz-range-thumb {
     margin-bottom: 5px;
 }
 
-.productView-container 
+.productView-container
 .product-description .was-price span{
     font-size: 18px;
     font-family: "Montserrat";
@@ -1092,7 +1093,7 @@ input[type="range"]::-moz-range-thumb {
     color: #e95144;
 }
 
-.productView-container 
+.productView-container
 .product-description .savings-box {
     border-radius: 4px;
     background: #cc0d39;
@@ -1106,19 +1107,19 @@ input[type="range"]::-moz-range-thumb {
     margin-top: 5;
 }
 
-.productView-container 
+.productView-container
 .product-description .discount-code{
     font-weight: bold;
     color: #ff0000;
     font-size: 16px;
     margin-top: 10px;
 }
-.productView-container 
+.productView-container
 .product-description .discount-code span{
     background-color: #000;
     color: #ffff00;
 }
-.productView-container 
+.productView-container
 .product-description .discount-code a{
     color: #b5282e;
     text-decoration: none;

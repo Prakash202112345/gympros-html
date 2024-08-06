@@ -1,6 +1,176 @@
 /* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (min-width: 200.98px) and (max-width: 1439.98px) {
+
+  /* header css start here */
+  .menu1,
+  .menu2,
+  .menu3 {
+    display: none
+  }
+
+  .mobile-menu .logo {
+    max-height: 33px;
+    margin-right: 2rem;
+  }
+
+  .mobile-menu .navbar-toggler {
+    border: 0;
+    color: #000;
+    box-shadow: none;
+  }
+
+  .mobile-menu .icon-cart {
+    width: 22px;
+    height: 22px;
+  }
+
+  .mobile-menu .cart-count-bubble {
+    background-color: #ffe5e8;
+    color: #323232;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: -8px;
+    right: -11px;
+  }
+
+  .mobile-menu .mobile-cart-wrapper {
+    text-decoration: none;
+    position: relative;
+    margin-right: 1rem;
+    display: inline-block;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 200.98px) and (max-width: 575.98px) {
   .header-highlight .highlight-text {
     font-size: 16px;
   }
 }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .section-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .view-all {
+    margin-bottom: 12px;
+    font-size: 10px;
+  }
+
+  .product-slider .product-wrapper img {
+    height: 183px;
+    margin-top: 10px;
+  }
+
+  .card-action {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0)
+  }
+
+  .product-slider .product-wrapper .quick-add,
+  .single-product .product-wrapper .quick-add {
+    padding: 7px 10px;
+  }
+
+  .product-slider .product-wrapper .prod-description .name,
+  .single-product .product-wrapper .prod-description .name {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .product-slider .product-wrapper .prod-description .was,
+  .single-product .product-wrapper .prod-description .was,
+  .single-product .product-wrapper .prod-description .sale-price,
+  .product-slider .product-wrapper .prod-description .sale-price {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .call-banner .wrapper {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.call-banner .wrapper ul li {
+  font-size: 16px;
+  color: #fff;
+}
+.call-banner {
+  padding: 40px 0;
+}
+.section-wrapper {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.our-brands {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.our-brands .brand-wrapper {
+  margin-top: 16px;
+  margin-bottom: 0;
+  padding: 16px;
+}
+.our-brands .cta {
+  margin-bottom: 20px;
+  display: block;
+}
+.cust-field-sec h2 {
+  font-size: 25px;
+}
+.cust-field-sec {
+  display: block;
+  text-align: center;
+}
+
+.gympros-list {
+  columns: inherit;
+  border: 0;
+}
+.blogs-wrapper {
+  margin: 40px 0;
+}
+.slick-slide {
+  margin: 0 2px;
+}
+
+/* the parent */
+.slick-list {
+  margin: 0 -2px;
+}
+.commercial-fitness ul {
+  flex-wrap: nowrap;
+}
+.commercial-fitness li button {
+  font-size: 10px;
+  padding: 5px;
+}
+.commercial-fitness li button.nav-link.active {
+  font-size: 12px;
+}
+
+.commercial-fitness-content .tab-pane {
+  font-size: 14px;
+  padding: 14px;
+}
+.footer-block__subheading {
+  margin-bottom: 30px;
+}
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}

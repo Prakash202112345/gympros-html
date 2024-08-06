@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GymPros</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./css/slick.css">
-    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./fonts/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
 </head>
 
 <body>
@@ -68,8 +68,11 @@
                                 <form action="" class="search">
                                     <div class="input-group">
                                         <input type="text" class="form-control" placeholder="Search">
-                                        <button class="btn" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                        <button class="btn" type="button"><svg xmlns="http://www.w3.org/2000/svg"
+                                                width="16" height="16" fill="currentColor" class="bi bi-search"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                                             </svg></button>
                                     </div>
                                 </form>
@@ -77,15 +80,19 @@
                             <div class="col-md-7 ms-auto">
                                 <div class="cart-wishlist">
                                     <a href="">
-                                        <svg viewBox="0 0 30 30" class="icon icon-cart" enable-background="new 0 0 30 30">
+                                        <svg viewBox="0 0 30 30" class="icon icon-cart"
+                                            enable-background="new 0 0 30 30">
                                             <g>
                                                 <g>
-                                                    <path d="M20,6V5c0-2.761-2.239-5-5-5s-5,2.239-5,5v1H4v24h22V6H20z M12,5c0-1.657,1.343-3,3-3s3,1.343,3,3v1h-6V5z M24,28H6V8h4v3    h2V8h6v3h2V8h4V28z"></path>
+                                                    <path
+                                                        d="M20,6V5c0-2.761-2.239-5-5-5s-5,2.239-5,5v1H4v24h22V6H20z M12,5c0-1.657,1.343-3,3-3s3,1.343,3,3v1h-6V5z M24,28H6V8h4v3    h2V8h6v3h2V8h4V28z">
+                                                    </path>
                                                 </g>
                                             </g>
                                         </svg>
                                         <span class="cart-text">Shopping Cart</span>
-                                        <div class="cart-count-bubble"><span class="text" aria-hidden="true" data-cart-count="">0</span><span class="visually-hidden">0 items</span>
+                                        <div class="cart-count-bubble"><span class="text" aria-hidden="true"
+                                                data-cart-count="">0</span><span class="visually-hidden">0 items</span>
                                         </div>
                                     </a>
                                     <a href="" class="wishlist">
@@ -151,7 +158,8 @@
                                         <a class="nav-link" href="#">Link</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
                                             Dropdown
                                         </a>
                                         <ul class="dropdown-menu">
@@ -169,6 +177,82 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+
+
+        <div class="mobile-menu">
+            <nav class="navbar bg-body-tertiary d-block">
+                <div class="px-0">
+                    <div class="align-items-center d-flex justify-content-between">
+                        <div><button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                            </svg></a></div>
+
+                            <a href=""> <img src="./assets/logo-gympros-1.jpeg" alt="logo" class="img-fluid logo"></a>
+
+                        <a href="" class="mobile-cart-wrapper">
+                            <svg viewBox="0 0 30 30" class="icon icon-cart" enable-background="new 0 0 30 30">
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M20,6V5c0-2.761-2.239-5-5-5s-5,2.239-5,5v1H4v24h22V6H20z M12,5c0-1.657,1.343-3,3-3s3,1.343,3,3v1h-6V5z M24,28H6V8h4v3    h2V8h6v3h2V8h4V28z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <div class="cart-count-bubble"><span class="text" aria-hidden="true"
+                                    data-cart-count="">0</span><span class="visually-hidden">0</span>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
 
 
