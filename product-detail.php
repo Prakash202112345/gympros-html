@@ -20,11 +20,8 @@ include './components/header.php';
 
 <div class="container productView-container">
   <div class="productView halo-productView layout-3 positionMainImage--left productView-sticky">
-    <div class="productView-moreItem" style="--spacing-top: px;
-                                            --spacing-bottom: px">
-      <h1 class="productView-title" style="--color-title: ;
-        --fontsize-text: px;
-        --fontsize-mb-text: px;">
+    <div class="productView-moreItem">
+      <h1 class="productView-title">
         <span>
           GP Pro Sun TX1000 2.5HP Folding Treadmill – New In Box Call 888-502-2348 – Exclusive Lifetime warranty*
         </span>
@@ -69,6 +66,38 @@ include './components/header.php';
           <div class="discount-code">Discount Code: <span>SAVEBIG2022</span> | Call for Details! <br />
             Call <a href="tel:+(888) 502-2348">(888) 502-2348</a> | Save Up to 75%</div>
           <img src="./assets/short-description-value2.png" alt="short-description-value2.png" class="img-fluid my-3">
+          <img src="./assets/no-tax-pdp.png" alt="no-tax-pdp.png" class="img-fluid my-3">
+          <img src="./assets/exclusive-lifetime-warranty-1.png" alt="no-tax-pdp.png" class="img-fluid my-3">
+          <img src="./assets/free-precor-300x123.png" alt="free-precor-300x123" class="img-fluid my-3">
+          <table class="table table-bordered w-50">
+            <tr>
+              <td><strong>Condition</strong></td>
+              <td>Used</td>
+            </tr>
+            <tr>
+              <td><strong>Brand</strong></td>
+              <td>Stairmaster</td>
+            </tr>
+            <tr>
+              <td><strong>Warranty</strong></td>
+              <td></td>
+            </tr>
+          </table>
+          <p class="qty mb-0">Quantity</p>
+          <div class="quantity">
+            <button class="minus" aria-label="Decrease">&minus;</button>
+            <input type="number" class="input-box" value="1" min="1" max="10">
+            <button class="plus" aria-label="Increase">&plus;</button>
+          </div>
+          <button class="add-to-card-btn an-horizontal-shaking">Add To cart</button>
+          <p class="qty mb-0">Categories:</p>
+          <div class="catlabels">
+            <a href="#">category</a><a href="#">category</a><a href="#">category</a><a href="#">category</a><a href="#">category</a><a href="#">category</a><a href="#">category</a><a href="#">category</a><a href="#">category</a><a href="#">category</a>
+          </div>
+          <p class="qty mb-0">Tags:</p>
+          <div class="catlabels mb-3">
+            <a href="#">Tags</a><a href="#">Tags</a><a href="#">Tags</a><a href="#">Tags</a><a href="#">Tags</a><a href="#">Tags</a><a href="#">Tags</a><a href="#">Tags</a><a href="#">Tags</a><a href="#">Tags</a>
+          </div>
         </div>
       </div>
     </div>

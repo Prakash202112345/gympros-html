@@ -1065,6 +1065,11 @@ input[type="range"]::-moz-range-thumb {
   display: block;
 }
 
+.productView-top {
+  position: sticky;
+  top: 0;
+}
+
 .productView-top .slider-for img {
   width: 100%;
   height: 525px;
@@ -1077,63 +1082,146 @@ input[type="range"]::-moz-range-thumb {
   object-fit: contain;
 }
 
-.productView-container .product-description .was-price{
-    font-size: 18px;
-    font-family: "Montserrat";
-    line-height: 22px;
-    margin-bottom: 5px;
+.productView-container .product-description .was-price {
+  font-size: 18px;
+  font-family: "Montserrat";
+  line-height: 22px;
+  margin-bottom: 5px;
 }
 
-.productView-container
-.product-description .was-price span{
-    font-size: 18px;
-    font-family: "Montserrat";
-    line-height: 22px;
-    font-weight: 600;
-    color: #e95144;
+.productView-container .product-description .was-price span {
+  font-size: 18px;
+  font-family: "Montserrat";
+  line-height: 22px;
+  font-weight: 600;
+  color: #e95144;
 }
 
-.productView-container
-.product-description .savings-box {
-    border-radius: 4px;
-    background: #cc0d39;
-    padding: 5px 20px;
-    color: #fff;
-    font-weight: 700;
-    vertical-align: text-bottom;
-    font-size: 16px;
-    font-family: "Montserrat";
-    width: fit-content;
-    margin-top: 5;
+.productView-container .product-description .savings-box {
+  border-radius: 4px;
+  background: #cc0d39;
+  padding: 5px 20px;
+  color: #fff;
+  font-weight: 700;
+  vertical-align: text-bottom;
+  font-size: 16px;
+  font-family: "Montserrat";
+  width: fit-content;
+  margin-top: 5;
 }
 
-.productView-container
-.product-description .discount-code{
-    font-weight: bold;
-    color: #ff0000;
-    font-size: 16px;
-    margin-top: 10px;
-}
-.productView-container
-.product-description .discount-code span{
-    background-color: #000;
-    color: #ffff00;
-}
-.productView-container
-.product-description .discount-code a{
-    color: #b5282e;
-    text-decoration: none;
+.productView-container .product-description .discount-code {
+  font-weight: bold;
+  color: #ff0000;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
-.key-points .list{
-    display: flex;
-    align-items: center;
+.productView-container .product-description .discount-code span {
+  background-color: #000;
+  color: #ffff00;
 }
-.key-points .list .img-icon-cls img{
-    height: 50px;
-    width: 50px;
-    margin-right: 10px;
+
+.productView-container .product-description .discount-code a {
+  color: #b5282e;
+  text-decoration: none;
 }
-.key-points .list .details-tb{
-    font-weight: 700;
+
+.key-points .list {
+  display: flex;
+  align-items: center;
+}
+
+.key-points .list .img-icon-cls img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.key-points .list .details-tb {
+  font-weight: 700;
+}
+
+.add-to-card-btn {
+  background-color: #af1e21;
+  border-color: #af1e21;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: #fff;
+  width: 100%;
+  border: 0;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.quantity {
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 4px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.quantity button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  width: 30px;
+  height: auto;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+.quantity button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.input-box {
+  width: 40px;
+  text-align: center;
+  border: none;
+  padding: 8px 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Hide the number input spin buttons */
+.input-box::-webkit-inner-spin-button,
+.input-box::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-box[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.qty {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.catlabels a {
+  color: #232323;
+  border: 1px solid #232323;
+  text-decoration: none;
+  padding: 2px 5px;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  font-family: 'Montserrat';
+  text-transform: capitalize;
+}
+
+.catlabels a:hover {
+  background-color: #232323;
+  color: #fff;
 }

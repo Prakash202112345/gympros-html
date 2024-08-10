@@ -14,6 +14,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <link rel="stylesheet" href="./fonts/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
+    <link rel="stylesheet" href="./css/animated.css">
 
 </head>
 
