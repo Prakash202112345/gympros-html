@@ -104,6 +104,10 @@ include './components/header.php';
   </div>
 </div>
 
+<?php
+include './components/product-description.php'
+?>
+
 
 <?php
 include './components/footer.php';
