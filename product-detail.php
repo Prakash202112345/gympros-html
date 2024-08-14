@@ -109,6 +109,22 @@ include './components/product-description.php'
 ?>
 
 
+
+<section class="section-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="section-title">Related Products</h2>
+        <a href="#" class="view-all">View All</a>
+      </div>
+    </div>
+  </div>
+  <?php
+  include './components/product-slider.php';
+  ?>
+
+</section>
+
 <?php
 include './components/footer.php';
 ?>
