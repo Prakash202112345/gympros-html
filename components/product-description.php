@@ -52,6 +52,6 @@ include './components/why-choose-us.php'
 </section>
 
 <section class="py-5 text-center">
-  <img src="../assets/reviews.png" alt="reviews.png" class="img-fluid">
-  <img src="../assets/reviews-image.png" alt="reviews-image.png" class="img-fluid mt-5">
+  <img src="./assets/reviews.png" alt="reviews.png" class="img-fluid">
+  <img src="./assets/reviews-image.png" alt="reviews-image.png" class="img-fluid mt-5">
 </section>
