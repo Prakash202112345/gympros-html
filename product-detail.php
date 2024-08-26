@@ -69,7 +69,7 @@ include './components/header.php';
           <img src="./assets/no-tax-pdp.png" alt="no-tax-pdp.png" class="img-fluid my-3">
           <img src="./assets/exclusive-lifetime-warranty-1.png" alt="no-tax-pdp.png" class="img-fluid my-3">
           <img src="./assets/free-precor-300x123.png" alt="free-precor-300x123" class="img-fluid my-3">
-          <table class="table table-bordered w-50">
+          <table class="table table-bordered w-100">
             <tr>
               <td><strong>Condition</strong></td>
               <td>Used</td>

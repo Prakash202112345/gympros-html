@@ -208,7 +208,7 @@
     fade: true,
     cssEase: 'linear',
     arrows: false,
-    dots: true
+    dots: false
   });
 </script>
 

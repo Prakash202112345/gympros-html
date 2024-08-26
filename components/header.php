@@ -67,7 +67,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                         <img src="./assets/logo-gympros-1.jpeg" alt="logo" class="img-fluid">
                     </div>
 
-                    <div class="col-md-5 ms-auto">
+                    <div class="col-auto ms-auto">
                         <div class="row align-items-center">
                             <div class="col-md-5 ms-auto">
                                 <form action="" class="search">
@@ -82,6 +82,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                     </div>
                                 </form>
                             </div>
+
                             <div class="col-md-7 ms-auto">
                                 <div class="cart-wishlist">
                                     <a href="">
@@ -170,10 +171,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#">Action</a></li>
                                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -244,10 +241,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#">Action</a></li>
                                         <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </li>
                             </ul>

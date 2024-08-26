@@ -1263,6 +1263,7 @@ input[type="range"]::-moz-range-thumb {
   right: 0;
   margin: auto;
 }
+
 .product-description-content {
   padding: 40px 0;
   font-family: "Montserrat";
@@ -1270,4 +1271,45 @@ input[type="range"]::-moz-range-thumb {
 
 .product-description-content .tab-pane a {
   color: #af1e21;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+  color: #232323 !important;
+}
+
+.slider-nav.slick-initialized.slick-slider {
+  margin: 0 25px;
+}
+
+.slider_wrapper img {
+  width: 100%;
+}
+
+.nav-item:hover .nav-link {
+  text-decoration: underline !important;
+}
+
+.dropdown-menu li {
+  margin-right: 0 !important;
+}
+
+.dropdown-item:hover {
+  text-decoration: underline;
+}
+
+.dropdown-item {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  /* Added closing quotation mark and fallback font */
+  color: #232323;
+  text-transform: capitalize;
+  /* Removed quotation marks */
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #fff;
+  color: #232323;
 }
